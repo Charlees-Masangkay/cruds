@@ -13,7 +13,7 @@ class ProductController extends BaseController
     }
     public function crud()
     {
-        echo 'bebii ingat ikaw';
+        return view('products');
     }
     public function index()
     {
